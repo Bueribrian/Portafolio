@@ -19,19 +19,19 @@
 					<p>Desarrollador Web</p>
 				</div>
 				<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
-					<a href="" class="c-1 d-flex align-items-center">
+					<a href="#portafolio-id" class="c-1 d-flex align-items-center">
 						<div class="d-flex flex-column text-center">
 							<span>Portafolio</span>
 							<i class="icono icon-briefcase"></i>
 						</div>
 					</a>
-					<a href="" class="c-2 d-flex align-items-center">
+					<a href="#acerca-de-id" class="c-2 d-flex align-items-center">
 						<div class="d-flex flex-column text-center">
 							<span>Acerca de</span>
 							<i class="icono icon-user"></i>
 						</div>
 					</a>
-					<a href="" class="c-3 d-flex align-items-center">
+					<a href="#contacto-id" class="c-3 d-flex align-items-center">
 						<div class="d-flex flex-column text-center">
 							<span>Contacto</span>
 							<i class="icono icon-mail"></i>
@@ -75,10 +75,10 @@
 		<div class="container">
 			<div class="row portafolio">
 				<div class="col">
-					<h2 class="titulo">Portafolio</h2>
+					<h2 id="portafolio-id" class="titulo">Portafolio</h2>
 			</div>
 			<div class="row galeria justify-content-center">
-				<div class="contenedor-imagen col-6 col-lg-4">
+				<div  class="contenedor-imagen col-6 col-lg-4">
 					<a href="#" data-toggle="modal" data-target="#modal">
 						<img src="img/galeria.jpeg" alt="" class="img-fluid imagen">
 					</a>
@@ -135,10 +135,10 @@
 			<div class="row acerca-de align-items-center">
 				<div class="col-12 col-lg-4 foto">
 					<img src="img/caradept.jpg" height="200" width="200" alt="" class="perfil img-fluid">
-					<p class="nombre">Bueri Brian</p>
+					<p  class="nombre">Bueri Brian</p>
 				</div>
 				<div class="col-12 col-lg-8 info">
-					<h2 class="titulo">Acerca de</h2>
+					<h2 class="titulo" id="acerca-de-id">Acerca de</h2>
 					<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium corporis, necessitatibus ipsa! Praesentium perspiciatis sapiente laborum sed dolore provident magnam!</p>
 					<p class="label">HTML5</p>
 					<div class="progress">
@@ -159,8 +159,39 @@
 
 				</div>
 			</div>
+			<div class="row contacto justify-content-center">
+				<div class="col-12 col-lg-8">
+					<h2 id="contacto-id" class="titulo">Contacto</h2>
+					<form action="" class="formulario">
+						<div class="form-group row">
+							<div class="col-12 col-md-6">
+								<input type="text" class="" id="nombre" placeholder="Nombre">
+							</div>
+							<div class="col-12 col-md-6">
+								<input type="email" class="" id="correo" placeholder="Nombre">
+							</div>
+						</div>
+						<textarea name="" id="" placeholder="Correo"></textarea>
+						<div class="form-group d-flex justify-content-center">
+							<input type="submit" class="boton" value="enviar">
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 	</main>
+	<footer>
+		<div class="container">
+			<div class="row redes-sociales justify-content-center">
+				<div class="col-auto">
+					<a href="" class="icon icon-twitter-circled twitter"></a>
+					<a href="" class="icon icon-github-circled-alt github"></a>
+					<a href="" class="icon icon-facebook-circled facebook"></a>	
+					<a href="" class="icon icon-linkedin-circled facebook"></a>	
+				</div>
+			</div>
+		</div>
+	</footer>
 
 
 	
