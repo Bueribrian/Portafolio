@@ -1,0 +1,137 @@
+.body {
+	background-color: #16181A;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:#f2f2f2;
+}
+header{
+	margin-top: 30px;
+}
+header .nav{
+	min-height: 80px;
+	overflow: hidden;
+	background: #2C3842;
+}
+
+/* ---logo---*/
+header .logo h2,
+header .logo span,
+header .logo p {
+	font-size: 16px;
+	display: inline-block;
+	margin:0;
+}
+
+header .logo h2 {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+header.logo .icono{
+	color: white;
+}
+
+header .logo p{
+	color:darkgray;
+}
+
+
+/*-----------menu-----------*/
+header .menu{
+	padding: 0;
+
+}
+header .menu a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 0 30px;
+}
+header .menu a:hover{
+	padding-bottom: 5px;
+	color: #2C3842;
+	text-shadow: 0px 0px 15px white;
+	transition: 0.3s;
+}
+header .menu a div span{
+	font-weight: 600;
+}
+header .menu .c-1{background:#AFADA0;}
+header .menu .c-2{background:#A7A598;}
+header .menu .c-3{background:#A09E90;}
+/*-------slider------*/
+.slider{
+	margin-bottom: 40px;
+
+}
+
+.slider .col{
+	padding: 0;
+}
+
+.galeria .imagen{
+	
+}
+
+.portafolio{
+	background: #2C3C44;
+	border-top: 5px solid black;
+	padding: 0 20px;
+	margin-bottom: 40px;
+}
+.portafolio .titulo{
+	padding: 40px 0;
+	text-align: center;
+	color: #4a80b5;
+	font-family: 'IBM Plex Sans', sans-serif; 
+	font-weight: 400;
+}
+
+.galeria .contenedor-imagen{
+	margin-bottom: 20px;
+	max-height: 200px;
+	overflow: hidden;
+}
+.galeria .contenedor-imagen a{
+	display: inline-block;
+	background:black;
+
+}
+
+.galeria .contenedor-imagen:hover  img{
+transition: 0.4s;
+opacity: .3
+}
+
+.portafolio .modal-dialog{
+	
+
+}
+
+#imagen-modal{
+width: 600px;
+height: auto;
+max-width: 700px;
+max-height: 700px;
+}
+.perfil{
+	border-radius: 50%;
+}
+
+
+.acerca-de{
+	padding: 30px;
+	margin-bottom: 40px;
+}
+.acerca-de .foto{
+	text-align: center;	
+
+
+}
+.acerca-de .foto img{
+	margin-bottom: 30px;
+}
+.acerca-de .foto .nombre{
+	color: 	white;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
